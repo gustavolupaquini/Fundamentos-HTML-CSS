@@ -1,0 +1,27 @@
+/* seletores
+    1) Classes (.)
+    2) IDs (#)
+    3) p, h1
+
+    <--- Internal, External and Inline --->
+*/
+
+.primeira-classe{
+    background-color: yellow;
+    font-size: 30px;
+}
+
+#primeiro-id{
+    background-color: limegreen;
+    font-size: 15px;
+}
+
+h1{
+    background-color: #E429;
+}
+
+p{
+    background-color: rgba(177, 238, 34, 0.658);
+}
+
+
