@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.flex-justify{
+    justify-content: space-between;
+}
+
+.item-allign{
+    align-items: flex-start;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+
+.item{
+    margin: 5px;
+    background: lime;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1{
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
