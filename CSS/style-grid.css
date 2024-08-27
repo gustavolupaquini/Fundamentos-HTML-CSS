@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+.item{
+    background: orange;
+    font-size: 1.5em;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+
+.container{
+
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-rows{
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-areas{
+    grid-template-columns: 100px 200px 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "area-1 area-2 area-2"
+    "area-3 area-4 area-5"
+    "area-6 area-7 area-8"
+    ;
+}
+
+.area-1{
+    grid-area: area-1;
+}
+
+.area-2{
+    grid-area: area-2;
+}
+
+.area-3{
+    grid-area: area-3;
+}
+
+.area-4{
+    grid-area: area-4;
+}
+
+.area-5{
+    grid-area: area-5;
+}
+
+.area-6{
+    grid-area: area-6;
+}
+
+.area-7{
+    grid-area: area-7;
+}
+
+.area-8{
+    grid-area: area-8;
+}
