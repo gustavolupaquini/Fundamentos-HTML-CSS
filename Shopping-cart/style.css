@@ -1,0 +1,42 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    color: whitesmoke;
+    height: 80px;
+    text-align: center;
+}
+
+main .page-title{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr{
+    border-bottom: 3px solid #eee;
+}
+
+table thead tr th{
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: grey;
+}
