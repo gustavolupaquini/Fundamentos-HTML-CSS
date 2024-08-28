@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
     </header>
     
     <main>
-        <div class="page-title">Pedido #10233</div>
+        <div class="page-title">Pedido #10233</div><br>
         <div class="content">
             <section>
                 <table>
@@ -26,10 +27,179 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>                            
+                            <td>
+                                <div class="product">                                    
+                                    <img src="images/ps5.png" alt="Playstation 5"
+                                        height="200"
+                                        width="200"
+                                    >
+                                    <div class="info">
+                                        <div class="name">Playstation 5</div>
+                                        <div class="category">Consoles</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 3.500,00</td>
+                            <td>
+                                <div class="bt-quantity">
+                                    <button>
+                                        <i class="bx bx-minus"></i>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <i class="bx bx-plus"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 3.500,00</td>
+                            <td>
+                                <div class="remove">
+                                    <button>
+                                        <i class="bx bx-x"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img 
+                                        src="images/rtx4070.webp" 
+                                        alt="Placa de vídeo RTX 4070 Super"
+                                        height="200"
+                                        width="200"
+                                    >
+                                    <div class="info">
+                                        <div class="name">RTX 4070 Super</div>
+                                        <div class="category">Placas de Vídeo</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 4.200,00</td>
+                            <td>
+                                <div class="bt-quantity">
+                                    <button>
+                                        <i class="bx bx-minus"></i>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <i class="bx bx-plus"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 4.200,00</td>
+                            <td>
+                                <div class="remove">
+                                    <button>
+                                        <i class="bx bx-x"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
 
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img 
+                                        src="images/ryzen.webp" 
+                                        alt="Processador Ryzen 7 5700X3D"
+                                        height="200"
+                                        width="200"
+                                    >
+                                    <div class="info">
+                                        <div class="name">Ryzen 7 5700X3D</div>
+                                        <div class="category">Processadores</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 1.300,00</td>
+                            <td>
+                                <div class="bt-quantity">
+                                    <button>
+                                        <i class="bx bx-minus"></i>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <i class="bx bx-plus"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 1.300,00</td>
+                            <td>
+                                <div class="remove">
+                                    <button>
+                                        <i class="bx bx-x"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img 
+                                        src="images/xbox.webp" 
+                                        alt="Xbox One S"
+                                        height="200"
+                                        width="200"
+                                    >
+                                    <div class="info">
+                                        <div class="name">Xbox One S</div>
+                                        <div class="category">Consoles</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 4.000,00</td>
+                            <td>
+                                <div class="bt-quantity">
+                                    <button>
+                                        <i class="bx bx-minus"></i>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <i class="bx bx-plus"></i>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 4.000,00</td>
+                            <td>
+                                <div class="remove">
+                                    <button>
+                                        <i class="bx bx-x"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-            </section>
+            </section>  
+            <aside>
+                <div class="box">
+                    <header>Resumo da Compra</header>
+                    <div class="info">
+                        <div>
+                            <span>Sub-total</span>
+                            <span>R$ 13.000,00</span>
+                        </div>
+                        <div>
+                            <span>Frete</span>
+                            <span>Gratuito</span>
+                        </div>
+                        <div>
+                            <button>
+                                Adicionar Cupom de Desconto ->
+                            </button>
+                        </div>
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ 13.000,00</span>
+                    </footer>
+                </div>
+                <button>Finalizar compra</button>
+            </aside>            
         </div>
     </main>
 </body>
